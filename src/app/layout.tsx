@@ -1,5 +1,4 @@
 import { ThemeProvider } from "@/components/theme/theme-provider";
-import { ThemeToggle } from "@/components/theme/theme-toggle";
 import "./globals.css";
 
 type RootLayoutProps = {
@@ -18,7 +17,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             enableSystem
             disableTransitionOnChange
           >
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
             {children}
           </ThemeProvider>
         </body>
